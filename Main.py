@@ -4,7 +4,7 @@ while(True):
     print("Hello User! What would you like to do today? -\n" \
             "1. Calculator\n" \
             "2. Calculate Area of plane figures\n" \
-            "3. Multiply\n" \
+            "3. Raj program\n" \
             "4. Exit\n")
     
     
