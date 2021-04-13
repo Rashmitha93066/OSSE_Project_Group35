@@ -19,7 +19,7 @@ while(True):
         print(2)
         # Area function
         print("Calculate Shape Area")
-        shape_name = input("Enter the name of shape whose area you want to find: ")
+        shape_name = input("Enter the name of shape whose area you want to find:")
         calculate_area(shape_name)
         
     elif select == 3:
