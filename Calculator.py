@@ -13,7 +13,8 @@ def multiply(num1, num2):
 # Function to divide two numbers
 def divide(num1, num2):
     return num1 / num2
-  
+
+
 def calculator():
     print("Please select operation -\n" \
             "1. Add\n" \
@@ -41,7 +42,10 @@ def calculator():
                         multiply(number_1, number_2))
     
     elif select == 4:
-        print(number_1, "/", number_2, "=",
-                        divide(number_1, number_2))
+        if(number_2 != 0):
+            print(number_1, "/", number_2, "=",
+                            divide(number_1, number_2))
+        else:
+            print("Division by zero is not possible. Pls Retry.")
     else:
         print("Invalid input")
