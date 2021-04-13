@@ -12,11 +12,9 @@ while(True):
     select = int(input("Select operations form 1, 2, 3, 4 : "))
     
     if select == 1:
-        print(1)
-        # Calculator Function
+        calculator()
     
     elif select == 2:
-        print(2)
         # Area function
         print("Calculate Shape Area")
         shape_name = input("Enter the name of shape whose area you want to find: ")
