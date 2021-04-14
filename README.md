@@ -16,6 +16,7 @@ Area Of shapes - includes
 3.Triangle
 4.Circle
 5.Parallelogram
+6.Trapezoid
 
 Option 3: To find Odd Even Number
 

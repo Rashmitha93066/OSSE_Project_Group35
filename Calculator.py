@@ -1,19 +1,18 @@
 # Function to add two numbers 
 def add(num1, num2):
-    return num1 + num2
+    return round(num1 + num2, 3)
   
 # Function to subtract two numbers 
 def subtract(num1, num2):
-    return num1 - num2
+    return round(num1 - num2, 3)
   
 # Function to multiply two numbers
 def multiply(num1, num2):
-    return num1 * num2
+    return round(num1 * num2, 3)
   
 # Function to divide two numbers
 def divide(num1, num2):
-    return num1 / num2
-
+    return round(num1 / num2, 3)
 
 def calculator():
     print("Please select operation -\n" \
@@ -26,8 +25,8 @@ def calculator():
     # Take input from the user 
     select = int(input("Select operations form 1, 2, 3, 4 :"))
     
-    number_1 = int(input("Enter first number: "))
-    number_2 = int(input("Enter second number: "))
+    number_1 = float(input("Enter first number: "))
+    number_2 = float(input("Enter second number: "))
     
     if select == 1:
         print(number_1, "+", number_2, "=",
