@@ -23,8 +23,8 @@ while(True):
         
     elif select == 3:
         print("Find Odd or Even Number")
+        num = int(input('Enter the number: '))
         find(num)
-        # Raj function
-
+        
     elif select == 4:
         quit()
