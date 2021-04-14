@@ -1,6 +1,6 @@
 #include files to be added here
 import Calculator
-from odd_even import *
+import odd_even 
 import Area
 
 while(True):
@@ -24,9 +24,8 @@ while(True):
         Area.calculate_area(shape_name)
         
     elif select == 3:
-#        print("Find Odd or Even Number")
         num = int(input('Enter the number: '))
-        print(find(num))
+        print(odd_even.find(num))
         
     elif select == 4:
         quit()
