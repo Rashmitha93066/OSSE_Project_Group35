@@ -1,12 +1,12 @@
 #include files to be added here
 import Calculator
-import odd_even
+from odd_even import *
 
 while(True):
     print("Hello User! What would you like to do today? -\n" \
             "1. Calculator\n" \
             "2. Calculate Area of plane figures\n" \
-            "3. Raj program\n" \
+            "3. Find Odd even number\n" \
             "4. Exit\n")
     
     
@@ -23,7 +23,7 @@ while(True):
         calculate_area(shape_name)
         
     elif select == 3:
-        print("Find Odd or Even Number")
+#        print("Find Odd or Even Number")
         num = int(input('Enter the number: '))
         print(find(num))
         
