@@ -13,7 +13,7 @@ while(True):
     select = int(input("Select operations form 1, 2, 3, 4 : "))
     
     if select == 1:
-        calculator()
+        Calculator.calculator()
     
     elif select == 2:
         # Area function
