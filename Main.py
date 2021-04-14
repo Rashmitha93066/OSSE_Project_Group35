@@ -22,7 +22,8 @@ while(True):
         calculate_area(shape_name)
         
     elif select == 3:
-        print(2)
+        print("Find Odd or Even Number")
+        find(num)
         # Raj function
 
     elif select == 4:
