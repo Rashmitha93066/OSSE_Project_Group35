@@ -16,3 +16,7 @@ Area Of shapes - includes
 3.Triangle
 4.Circle
 5.Parallelogram
+
+Option 3: To find Odd Even Number
+
+User can input one number and function will return Odd or Even number depending on input.
