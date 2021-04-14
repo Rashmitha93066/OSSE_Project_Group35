@@ -1,5 +1,6 @@
 #include files to be added here
 import Calculator
+import Area
 
 while(True):
     print("Hello User! What would you like to do today? -\n" \
@@ -19,7 +20,7 @@ while(True):
         # Area function
         print("Calculate Shape Area")
         shape_name = input("Enter the name of shape whose area you want to find: ")
-        calculate_area(shape_name)
+        Area.calculate_area(shape_name)
         
     elif select == 3:
         print("Find Odd or Even Number")
