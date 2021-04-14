@@ -5,11 +5,7 @@
 def find(num):
     # code logic here
     if num%2 == 0:
-        numtype="even"
+        numtype="The number is Even."
     else:
-        numtype = "odd"
+        numtype = "The number is Odd"
     return numtype
-
-num = int(input('Enter the number: '))
-numtype = find(num)       
-print('Given number is',numtype)  
