@@ -1,6 +1,6 @@
 # define a function for calculating
 # the area of a shapes
-def calculate_area(name):\
+def calculate_area(name):
     
   # converting all characters
   # into lower cases
@@ -13,16 +13,14 @@ def calculate_area(name):\
       
     # calculate area of rectangel
     rect_area = l * b
-    print(f"The area of rectangle is 
-          {rect_area}.")
+    print(f"The area of rectangle is {rect_area}.")
     
   elif name == "square":
     s = int(input("Enter square's side length: "))
         
     # calculate area of square
     sqt_area = s * s
-    print(f"The area of square is 
-          {sqt_area}.")
+    print(f"The area of square is  {sqt_area}.")
   
   elif name == "triangle":
     h = int(input("Enter triangle's height length: "))
@@ -30,8 +28,7 @@ def calculate_area(name):\
         
     # calculate area of triangle
     tri_area = 0.5 * b * h
-    print(f"The area of triangle is 
-          {tri_area}.")
+    print(f"The area of triangle is  {tri_area}.")
   
   elif name == "circle":
     r = int(input("Enter circle's radius length: "))
@@ -39,8 +36,7 @@ def calculate_area(name):\
           
     # calculate area of circle
     circ_area = pi * r * r
-    print(f"The area of triangle is 
-          {circ_area}.")
+    print(f"The area of triangle is  {circ_area}.")
           
   elif name == 'parallelogram':
     b = int(input("Enter parallelogram's base length: "))
@@ -48,8 +44,16 @@ def calculate_area(name):\
       
     # calculate area of parallelogram
     para_area = b * h
-    print(f"The area of parallelogram is 
-          {para_area}.")
+    print(f"The area of parallelogram is  {para_area}.")
+    
+   elif name == 'trapezoid':
+    b1 = int(input("Enter trapezoid's base length 1: "))
+    b2 = int(input("Enter trapezoid's base length 2: "))
+    h = int(input("Enter trapezoid's height length: "))
       
+    # calculate area of trapezoid
+    trape_area = (b1+b2) * 0.5 * h
+    print(f"The area of trapezoid is  {trape_area}.") 
+    
   else:
     print("Sorry! This shape is not available")
