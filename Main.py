@@ -1,4 +1,5 @@
 #include files to be added here
+import Calculator
 
 while(True):
     print("Hello User! What would you like to do today? -\n" \
@@ -12,13 +13,14 @@ while(True):
     select = int(input("Select operations form 1, 2, 3, 4 : "))
     
     if select == 1:
-        print(1)
-        # Calculator Function
+        calculator()
     
     elif select == 2:
-        print(2)
-        # Rashmita function
-    
+        # Area function
+        print("Calculate Shape Area")
+        shape_name = input("Enter the name of shape whose area you want to find: ")
+        calculate_area(shape_name)
+        
     elif select == 3:
         print(2)
         # Raj function
