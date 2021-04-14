@@ -24,7 +24,7 @@ while(True):
     elif select == 3:
         print("Find Odd or Even Number")
         num = int(input('Enter the number: '))
-        find(num)
+        print(find(num))
         
     elif select == 4:
         quit()
