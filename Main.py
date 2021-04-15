@@ -24,8 +24,13 @@ while(True):
         Area.calculate_area(shape_name)
         
     elif select == 3:
-        num = int(input('Enter the number: '))
-        print(odd_even.find(num))
+        a = input('Enter the number: ')
+        if a.isnumeric():
+           b=int(a)
+           res=odd_even.find(b)
+           print(res)
+        else:
+           print("please enter numeric data")
         
     elif select == 4:
         quit()
