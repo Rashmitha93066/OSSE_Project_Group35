@@ -2,8 +2,7 @@
 # the area of a shapes
 def calculate_area(name):\
     
-  # converting all characters
-  # into lower cases
+  # converting all charactersinto lower cases
   name = name.lower()
     
   # check for the conditions
@@ -11,7 +10,7 @@ def calculate_area(name):\
     l = int(input("Enter rectangle's length: "))
     b = int(input("Enter rectangle's breadth: "))
       
-    # calculate area of rectangel
+    # calculate area of rectangle
     if l>0 and b>0:
       rect_area = l * b
       print(f"The area of rectangle is {rect_area}.")
