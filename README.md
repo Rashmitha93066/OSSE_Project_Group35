@@ -8,11 +8,11 @@ Option 1 : Calculator
 
 User can input two numbers and perform the basic mathematical operations like add, subtract, multiply and divide.
 
-Option 2:
-
-Area Of shapes - includes 
-1.Square
-2.Rectange
+Option 2:Area Of shapes
+User can input values to find Area of below Shapes:
+ 
+1.Rectange
+2.Square
 3.Triangle
 4.Circle
 5.Parallelogram
