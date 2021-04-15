@@ -14,12 +14,17 @@ def multiply(num1, num2):
 def divide(num1, num2):
     return round(num1 / num2, 3)
 
+# Function to modulo of two numbers
+def modulo(num1, num2):
+    return round(num1 % num2, 3)
+
 def calculator():
     print("Please select operation -\n" \
             "1. Add\n" \
             "2. Subtract\n" \
             "3. Multiply\n" \
-            "4. Divide\n")
+            "4. Divide\n" \
+            "5. Modulo\n")
     
     
     # Take input from the user 
@@ -44,6 +49,12 @@ def calculator():
         if(number_2 != 0):
             print(number_1, "/", number_2, "=",
                             divide(number_1, number_2))
+        else:
+            print("Division by zero is not possible. Pls Retry.")
+    elif select == 5:
+        if(number_2 != 0):
+            print(number_1, "%", number_2, "=",
+                            modulo(number_1, number_2))
         else:
             print("Division by zero is not possible. Pls Retry.")
     else:
