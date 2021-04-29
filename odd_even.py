@@ -2,14 +2,21 @@
 # Take your input
 # Call the find function
 # Print if the number is even or odd
-def find(num):
-    # code logic here
-    if num%2 == 0:
-        numtype="even"
-    else:
-        numtype = "odd"
-    return numtype
+#def find(num):
+#    # code logic here
+#    if num%2 == 0:
+#        numtype="The number is Even."
+#    else:
+#        numtype = "The number is Odd"
+#    return numtype
 
-num = int(input('Enter the number: '))
-numtype = find(num)       
-print('Given number is',numtype)  
+
+def find(num):
+# code logic here
+    if num==0:
+        numtype="Neither even nor odd"
+    elif num%2 == 0:
+        numtype="The number is Even."
+    else:
+        numtype = "The number is Odd"
+    return numtype
